@@ -1,10 +1,13 @@
 
 # Created by https://www.gitignore.io/api/kicad
 # Edit at https://www.gitignore.io/?templates=kicad
+#
+*.swp
 
 ### KiCad ###
 # For PCBs designed using KiCad: http://www.kicad-pcb.org/
 # Format documentation: http://kicad-pcb.org/help/file-formats/
+behavior_panel-backups/
 
 # Temporary files
 *.000

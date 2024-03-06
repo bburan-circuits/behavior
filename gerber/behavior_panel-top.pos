@@ -1,0 +1,34 @@
+### Module positions - created on Fri 08 Jul 2022 08:13:16 AM PDT ###
+### Printed by Pcbnew version 6.0.2+dfsg-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                Package                               PosX       PosY       Rot  Side
+C1        0.1uF              C_0603_1608Metric                 135.2295   -58.2930    0.0000  top
+C2        0.1uF              C_0603_1608Metric                 135.2296   -56.7690    0.0000  top
+C3        0.1uF              C_0603_1608Metric                 135.2170   -60.8330    0.0000  top
+C4        0.1uF              C_0603_1608Metric                 135.2170   -54.2290    0.0000  top
+C5        10uF               C_1206_3216Metric                 137.0330   -66.4815  -90.0000  top
+C6        0.1uF              C_0603_1608Metric                 137.4139   -69.5960  180.0000  top
+C11       0.1uF              C_0805_2012Metric                 125.8570   -69.4840   90.0000  top
+C12       1uF                C_0603_1608Metric                 138.9888   -67.2846   90.0000  top
+J1        Conn_01x16         PinHeader_1x16_P2.54mm_Vertical   142.2400   -87.8840  180.0000  top
+Q1        Q_NPN_BEC          SOT-23                            136.4996   -85.1408    0.0000  top
+Q3        N-channel_MOSFET   TO-252-2                          132.4895   -75.6910  180.0000  top
+R1        100_0.25W          R_1206_3216Metric                 136.5855   -51.7525    0.0000  top
+R2        100_0.25W          R_1206_3216Metric                 136.5855   -49.2125    0.0000  top
+R3        10k                R_0402_1005Metric                 138.4300   -59.4360   90.0000  top
+R4        10k                R_0402_1005Metric                 138.4300   -55.6490  -90.0000  top
+R5        10k                R_0402_1005Metric                 137.2870   -59.4360   90.0000  top
+R6        10k                R_0402_1005Metric                 137.2870   -55.6260  -90.0000  top
+R7        10k                R_0402_1005Metric                 134.6605   -59.5630    0.0000  top
+R8        10k                R_0402_1005Metric                 134.6835   -55.4990    0.0000  top
+R9        10k                R_0402_1005Metric                 137.6680   -82.2452   90.0000  top
+R10       220                R_0805_2012Metric                 136.4488   -88.0364  180.0000  top
+R17       100                R_0805_2012Metric                 134.1270   -63.5000  180.0000  top
+R18       300                R_0805_2012Metric                 130.6680   -63.5000  180.0000  top
+R19       10k                R_0402_1005Metric                 136.5758   -82.2452   90.0000  top
+R25       10k                R_0402_1005Metric                 135.7780   -80.2640  180.0000  top
+U1        LM2902             TSSOP-14_4.4x5mm_P0.65mm          129.5944   -57.7215  180.0000  top
+U2        LM317_3PinPackage  SOT-223                           131.4323   -68.1736    0.0000  top
+U3        SFH617A-1X007T     SMDIP-4_W9.53mm_Clearance8mm      131.8260   -85.3440   90.0000  top
+## End

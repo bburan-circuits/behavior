@@ -1037,16 +1037,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 68.58) (xy 143.51 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b41e4ca-3178-4b0f-a0d3-3e3df44fb6a3")
-	)
-	(wire
-		(pts
 			(xy 143.51 106.68) (xy 143.51 111.76)
 		)
 		(stroke
@@ -1290,7 +1280,7 @@
 		(uuid "a97c315a-1015-4360-8ef2-9d8e55294355")
 	)
 	(label "device in"
-		(at 143.51 68.58 0)
+		(at 143.51 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1969,105 +1959,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 143.51 76.2 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c26658c1-c898-4a30-8c00-7e22beca9e89")
-		(property "Reference" "R7"
-			(at 141.732 77.3684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50"
-			(at 141.732 75.057 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 145.288 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MF-RES-0402-10k"
-			(at 143.51 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "POPULATE" "1"
-			(at 143.51 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6f99f40-b7f7-4004-a6f4-9a8c5b7d813f")
-		)
-		(pin "2"
-			(uuid "a5bc7446-780c-4d7d-92ad-4deaf66c889f")
-		)
-		(instances
-			(project "behavior_panel"
-				(path "/4f66b314-0f62-4fb6-8c3c-f9c6a75cd3ec/f3836fb3-3a0e-486b-8766-891268655fa3"
-					(reference "R7")
-					(unit 1)
-				)
-				(path "/4f66b314-0f62-4fb6-8c3c-f9c6a75cd3ec/cba2e56b-ee53-4e3f-b78d-df0a8ddc23e4"
-					(reference "R18")
-					(unit 1)
-				)
-				(path "/4f66b314-0f62-4fb6-8c3c-f9c6a75cd3ec/540ef4d7-5fd0-4577-84e4-0498e327b4c8"
-					(reference "R25")
-					(unit 1)
-				)
-				(path "/4f66b314-0f62-4fb6-8c3c-f9c6a75cd3ec/c31bb56b-4d55-49ba-bd60-4a6581744f2a"
-					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 187.96 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2167,7 +2058,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "50"
 			(at 146.05 104.1399 0)
 			(effects
 				(font

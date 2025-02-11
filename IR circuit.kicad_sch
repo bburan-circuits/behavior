@@ -1213,6 +1213,16 @@
 		)
 		(uuid "f7c13bb1-9542-41ae-b579-df33e7d82114")
 	)
+	(text "* RC going to ground forms a lowpass circuit with fc = 1/(2piRC).\n  Selected values give us a cutoff of 160 Hz.\n* C in feedback loop helps stabilize the response of the op-amp.\n\nResistors\n* R1 selected to provide a current of less than 50mA to IR LED."
+		(exclude_from_sim no)
+		(at 111.506 112.014 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f5aebae7-6d7b-4fb5-ace9-89950d4d5842")
+	)
 	(label "O"
 		(at 205.74 91.44 0)
 		(effects
